@@ -48,7 +48,6 @@
 				31422F474AD690B62F30623B /* Pods-Viper-Architecture.debug.xcconfig */,
 				DC27F4A0DAAB61C5671F7D06 /* Pods-Viper-Architecture.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +80,11 @@
 		F3BF5CC8274F2A9500562BC9 /* Viper-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				F3BF5CE1274F311000562BC9 /* common-utils */,
+				F3BF5CE0274F310200562BC9 /* app-modules */,
+				F3BF5CDF274F30F600562BC9 /* app-settings */,
+				F3BF5CDE274F30EB00562BC9 /* app-ui */,
+				F3BF5CDD274F30DD00562BC9 /* app-icons */,
 				F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */,
 				F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */,
 				F3BF5CCD274F2A9500562BC9 /* ViewController.swift */,
@@ -90,6 +94,41 @@
 				F3BF5CD7274F2A9900562BC9 /* Info.plist */,
 			);
 			path = "Viper-Architecture";
+			sourceTree = "<group>";
+		};
+		F3BF5CDD274F30DD00562BC9 /* app-icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "app-icons";
+			sourceTree = "<group>";
+		};
+		F3BF5CDE274F30EB00562BC9 /* app-ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "app-ui";
+			sourceTree = "<group>";
+		};
+		F3BF5CDF274F30F600562BC9 /* app-settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "app-settings";
+			sourceTree = "<group>";
+		};
+		F3BF5CE0274F310200562BC9 /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		F3BF5CE1274F311000562BC9 /* common-utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "common-utils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
