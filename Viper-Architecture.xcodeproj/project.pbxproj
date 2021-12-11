@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		34CFE82AF613B905EE2B5180 /* Pods_Viper_Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4349651CA17409232AD00F41 /* Pods_Viper_Architecture.framework */; };
+		F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BE9C2764894000B9FF27 /* MovieViewController.swift */; };
+		F322BE9F276489D800B9FF27 /* MovieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BE9E276489D800B9FF27 /* MovieProtocol.swift */; };
+		F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA027648A9900B9FF27 /* MovieModel.swift */; };
+		F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA427648C9000B9FF27 /* MovieCell.swift */; };
+		F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA62764919A00B9FF27 /* MovieInteractor.swift */; };
 		F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */; };
 		F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */; };
 		F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCD274F2A9500562BC9 /* ViewController.swift */; };
@@ -15,12 +20,20 @@
 		F3BF5CD3274F2A9900562BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BF5CD2274F2A9900562BC9 /* Assets.xcassets */; };
 		F3BF5CD6274F2A9900562BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BF5CD4274F2A9900562BC9 /* LaunchScreen.storyboard */; };
 		F3BF5CE4274F34E300562BC9 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CE3274F34E200562BC9 /* AppConstants.swift */; };
+		F3BF5CED274F379300562BC9 /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CEC274F379300562BC9 /* NoticeModel.swift */; };
+		F3BF5CF42750827E00562BC9 /* NoticeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */; };
+		F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31422F474AD690B62F30623B /* Pods-Viper-Architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper-Architecture.debug.xcconfig"; path = "Target Support Files/Pods-Viper-Architecture/Pods-Viper-Architecture.debug.xcconfig"; sourceTree = "<group>"; };
 		4349651CA17409232AD00F41 /* Pods_Viper_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viper_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC27F4A0DAAB61C5671F7D06 /* Pods-Viper-Architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper-Architecture.release.xcconfig"; path = "Target Support Files/Pods-Viper-Architecture/Pods-Viper-Architecture.release.xcconfig"; sourceTree = "<group>"; };
+		F322BE9C2764894000B9FF27 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		F322BE9E276489D800B9FF27 /* MovieProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProtocol.swift; sourceTree = "<group>"; };
+		F322BEA027648A9900B9FF27 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		F322BEA427648C9000B9FF27 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F322BEA62764919A00B9FF27 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
 		F3BF5CC6274F2A9500562BC9 /* Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +43,9 @@
 		F3BF5CD5274F2A9900562BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3BF5CD7274F2A9900562BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BF5CE3274F34E200562BC9 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F3BF5CEC274F379300562BC9 /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
+		F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeProtocols.swift; sourceTree = "<group>"; };
+		F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,82 @@
 				4349651CA17409232AD00F41 /* Pods_Viper_Architecture.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F322BE95276488C600B9FF27 /* movie-module */ = {
+			isa = PBXGroup;
+			children = (
+				F322BE9B2764891700B9FF27 /* entity */,
+				F322BE9A2764890F00B9FF27 /* interactor */,
+				F322BE992764890600B9FF27 /* presenter */,
+				F322BE98276488FC00B9FF27 /* protocols */,
+				F322BE97276488E500B9FF27 /* router */,
+				F322BE96276488DE00B9FF27 /* view */,
+			);
+			path = "movie-module";
+			sourceTree = "<group>";
+		};
+		F322BE96276488DE00B9FF27 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F322BEA327648C7D00B9FF27 /* controller */,
+				F322BEA227648C7100B9FF27 /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F322BE97276488E500B9FF27 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F322BE98276488FC00B9FF27 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F322BE9E276489D800B9FF27 /* MovieProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F322BE992764890600B9FF27 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F322BE9A2764890F00B9FF27 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F322BEA62764919A00B9FF27 /* MovieInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F322BE9B2764891700B9FF27 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F322BEA027648A9900B9FF27 /* MovieModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F322BEA227648C7100B9FF27 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F322BEA427648C9000B9FF27 /* MovieCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F322BEA327648C7D00B9FF27 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F322BE9C2764894000B9FF27 /* MovieViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		F3BF5CBD274F2A9400562BC9 = {
@@ -122,6 +214,8 @@
 		F3BF5CE0274F310200562BC9 /* app-modules */ = {
 			isa = PBXGroup;
 			children = (
+				F322BE95276488C600B9FF27 /* movie-module */,
+				F3BF5CE5274F36D300562BC9 /* notice-module */,
 			);
 			path = "app-modules";
 			sourceTree = "<group>";
@@ -140,6 +234,64 @@
 				F3BF5CE3274F34E200562BC9 /* AppConstants.swift */,
 			);
 			path = "app-constants";
+			sourceTree = "<group>";
+		};
+		F3BF5CE5274F36D300562BC9 /* notice-module */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5CEB274F378200562BC9 /* view */,
+				F3BF5CEA274F377900562BC9 /* router */,
+				F3BF5CE9274F376F00562BC9 /* protocols */,
+				F3BF5CE8274F376200562BC9 /* presenter */,
+				F3BF5CE7274F375800562BC9 /* interactor */,
+				F3BF5CE6274F374800562BC9 /* entity */,
+			);
+			path = "notice-module";
+			sourceTree = "<group>";
+		};
+		F3BF5CE6274F374800562BC9 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5CEC274F379300562BC9 /* NoticeModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F3BF5CE7274F375800562BC9 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F3BF5CE8274F376200562BC9 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F3BF5CE9274F376F00562BC9 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F3BF5CEA274F377900562BC9 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F3BF5CEB274F378200562BC9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +409,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BF5CED274F379300562BC9 /* NoticeModel.swift in Sources */,
+				F3BF5CF42750827E00562BC9 /* NoticeProtocols.swift in Sources */,
+				F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */,
+				F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */,
 				F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */,
+				F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */,
+				F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */,
+				F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */,
+				F322BE9F276489D800B9FF27 /* MovieProtocol.swift in Sources */,
 				F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */,
 				F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */,
 				F3BF5CE4274F34E300562BC9 /* AppConstants.swift in Sources */,
