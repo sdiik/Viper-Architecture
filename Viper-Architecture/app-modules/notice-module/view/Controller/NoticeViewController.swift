@@ -16,11 +16,16 @@ class NoticeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTitle()
         configTableView()
         registerTableViewCell()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+    }
+    private
+    func setTitle() {
+        self.title = "Notice-Module"
     }
     private
     func refreshTableView() {
@@ -33,14 +38,25 @@ class NoticeViewController: UIViewController {
     }
     private
     func registerTableViewCell() {
-        
+        uiTableView.register(UINib(nibName: "NoticeCell", bundle: nil), forCellReuseIdentifier: "NoticeCell")
     }
 }
+
 extension NoticeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return noticeArrayList.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        if noticeArrayList.isEmpty {
+            return UITableViewCell()
+        } else {
+            return self.tableView(tableView, cellForNoticeRowAt: indexPath)
+        }
+    }
+    func tableView(_ tableView: UITableView, cellForNoticeRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "NoticeCell", for: indexPath) as? NoticeCell else {
+            return UITableViewCell()
+        }
+        return cell
     }
 }
