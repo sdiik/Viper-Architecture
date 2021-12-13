@@ -8,7 +8,10 @@
 import Foundation
 
 protocol ViewToPresenterMovieProtocol:class {
-    var view: PresenterToViewMovieProtocol? { get set}
+    var view: PresenterToViewMovieProtocol? {get set}
+    var interactor: PresenterToInteractorMovieProtocol? {get set}
+    var router: PresenterToRouterMovieProtocol? {get set}
+    func startFetchMovie()
 }
 
 protocol PresenterToViewMovieProtocol:class {

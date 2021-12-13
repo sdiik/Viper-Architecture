@@ -14,6 +14,10 @@
 		F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA427648C9000B9FF27 /* MovieCell.swift */; };
 		F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA62764919A00B9FF27 /* MovieInteractor.swift */; };
 		F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EA6276498760093139C /* NoticeCell.swift */; };
+		F3BB9EA92766D3F00093139C /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EA82766D3F00093139C /* MoviePresenter.swift */; };
+		F3BB9EAB2766D5D50093139C /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAA2766D5D50093139C /* MovieRouter.swift */; };
+		F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAC2766D9730093139C /* AppUtils.swift */; };
+		F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */; };
 		F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */; };
 		F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */; };
 		F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCD274F2A9500562BC9 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 		F322BEA427648C9000B9FF27 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		F322BEA62764919A00B9FF27 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
 		F3BB9EA6276498760093139C /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
+		F3BB9EA82766D3F00093139C /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		F3BB9EAA2766D5D50093139C /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		F3BB9EAC2766D9730093139C /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		F3BF5CC6274F2A9500562BC9 /* Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 		F322BE97276488E500B9FF27 /* router */ = {
 			isa = PBXGroup;
 			children = (
+				F3BB9EAA2766D5D50093139C /* MovieRouter.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 		F322BE992764890600B9FF27 /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				F3BB9EA82766D3F00093139C /* MoviePresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -169,6 +179,14 @@
 				F3BB9EA6276498760093139C /* NoticeCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		F3BB9EAE2766DA210093139C /* ui-utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */,
+			);
+			path = "ui-utils";
 			sourceTree = "<group>";
 		};
 		F3BF5CBD274F2A9400562BC9 = {
@@ -241,7 +259,9 @@
 		F3BF5CE1274F311000562BC9 /* common-utils */ = {
 			isa = PBXGroup;
 			children = (
+				F3BB9EAE2766DA210093139C /* ui-utils */,
 				F3BF5CE2274F34C400562BC9 /* app-constants */,
+				F3BB9EAC2766D9730093139C /* AppUtils.swift */,
 			);
 			path = "common-utils";
 			sourceTree = "<group>";
@@ -431,12 +451,16 @@
 				F3BF5CED274F379300562BC9 /* NoticeModel.swift in Sources */,
 				F3BF5CF42750827E00562BC9 /* NoticeProtocols.swift in Sources */,
 				F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */,
+				F3BB9EA92766D3F00093139C /* MoviePresenter.swift in Sources */,
 				F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */,
 				F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */,
 				F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */,
 				F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */,
+				F3BB9EAB2766D5D50093139C /* MovieRouter.swift in Sources */,
+				F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */,
 				F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */,
 				F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */,
+				F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */,
 				F322BE9F276489D800B9FF27 /* MovieProtocol.swift in Sources */,
 				F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */,
 				F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */,
