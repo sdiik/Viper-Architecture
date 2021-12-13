@@ -36,7 +36,6 @@ class MovieViewController: UIViewController {
     func registerTableCell() {
         myTableView.register(UINib(nibName: "MovieCell", bundle: nil), forCellReuseIdentifier: "MovieCell")
     }
-    
 }
 
 extension MovieViewController: UITableViewDelegate, UITableViewDataSource {

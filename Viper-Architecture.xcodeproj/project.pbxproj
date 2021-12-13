@@ -13,6 +13,7 @@
 		F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA027648A9900B9FF27 /* MovieModel.swift */; };
 		F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA427648C9000B9FF27 /* MovieCell.swift */; };
 		F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA62764919A00B9FF27 /* MovieInteractor.swift */; };
+		F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EA6276498760093139C /* NoticeCell.swift */; };
 		F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */; };
 		F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */; };
 		F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCD274F2A9500562BC9 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		F322BEA027648A9900B9FF27 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		F322BEA427648C9000B9FF27 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		F322BEA62764919A00B9FF27 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
+		F3BB9EA6276498760093139C /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
 		F3BF5CC6274F2A9500562BC9 /* Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,22 @@
 				F322BE9C2764894000B9FF27 /* MovieViewController.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		F3BB9EA42764985E0093139C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3BB9EA5276498650093139C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3BB9EA6276498760093139C /* NoticeCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F3BF5CBD274F2A9400562BC9 = {
@@ -289,7 +307,8 @@
 		F3BF5CEB274F378200562BC9 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */,
+				F3BB9EA5276498650093139C /* Cell */,
+				F3BB9EA42764985E0093139C /* Controller */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -414,6 +433,7 @@
 				F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */,
 				F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */,
 				F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */,
+				F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */,
 				F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */,
 				F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */,
 				F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */,

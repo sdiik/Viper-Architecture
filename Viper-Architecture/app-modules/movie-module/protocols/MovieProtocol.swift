@@ -8,7 +8,7 @@
 import Foundation
 
 protocol ViewToPresenterMovieProtocol:class {
-    var view: PresenterToViewProtocol? { get set}
+    var view: PresenterToViewMovieProtocol? { get set}
 }
 
 protocol PresenterToViewMovieProtocol:class {
