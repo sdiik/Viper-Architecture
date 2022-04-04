@@ -17,7 +17,7 @@ class ProgressIndicator: UIVisualEffectView {
         }
     }
     
-    let activityIndictor: UIActivityIndicatorView = UIActivityIndicatorView(style: .whiteLarge)
+    let activityIndictor: UIActivityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.large)
     let label: UILabel = UILabel()
     let blurEffect = UIBlurEffect(style: .dark)
     var vibrancyView: UIVisualEffectView
@@ -29,10 +29,10 @@ class ProgressIndicator: UIVisualEffectView {
         self.setup()
     }
     
-    required convenience init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         self.text = ""
         self.vibrancyView = UIVisualEffectView(effect: UIVibrancyEffect(blurEffect: blurEffect))
-        self.init(coder: aDecoder)
+        super.init(coder: aDecoder)
         self.setup()
     }
     
@@ -50,8 +50,8 @@ class ProgressIndicator: UIVisualEffectView {
 
             let width = superview.frame.size.width / 1.8
             let height: CGFloat = 70.0
-            self.frame = CGRect(x: superview.frame.size.width / 2 - width / 2,
-                                y: superview.frame.height / 2 - height / 2,
+            self.frame = CGRect(x: UIScreen.main.bounds.size.width / 5,
+                                y: UIScreen.main.bounds.size.height / 2.5,
                                 width: width,
                                 height: height)
             vibrancyView.frame = self.bounds

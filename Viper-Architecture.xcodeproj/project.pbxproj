@@ -8,54 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		34CFE82AF613B905EE2B5180 /* Pods_Viper_Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4349651CA17409232AD00F41 /* Pods_Viper_Architecture.framework */; };
-		F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BE9C2764894000B9FF27 /* MovieViewController.swift */; };
-		F322BE9F276489D800B9FF27 /* MovieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BE9E276489D800B9FF27 /* MovieProtocol.swift */; };
-		F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA027648A9900B9FF27 /* MovieModel.swift */; };
-		F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA427648C9000B9FF27 /* MovieCell.swift */; };
-		F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322BEA62764919A00B9FF27 /* MovieInteractor.swift */; };
-		F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EA6276498760093139C /* NoticeCell.swift */; };
-		F3BB9EA92766D3F00093139C /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EA82766D3F00093139C /* MoviePresenter.swift */; };
-		F3BB9EAB2766D5D50093139C /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAA2766D5D50093139C /* MovieRouter.swift */; };
+		F3007AF327FAA062007EBFC5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007AF227FAA062007EBFC5 /* API.swift */; };
+		F3007AF927FABA17007EBFC5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007AF827FABA17007EBFC5 /* NetworkManager.swift */; };
+		F3007B0B27FAC3B8007EBFC5 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B0927FAC3B8007EBFC5 /* RestaurantCell.swift */; };
+		F3007B0C27FAC3B8007EBFC5 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3007B0A27FAC3B8007EBFC5 /* RestaurantCell.xib */; };
+		F3007B0F27FAC3DB007EBFC5 /* RestaurantRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B0D27FAC3DB007EBFC5 /* RestaurantRequest.swift */; };
+		F3007B1027FAC3DB007EBFC5 /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B0E27FAC3DB007EBFC5 /* RestaurantResponse.swift */; };
+		F3007B1227FAC4B5007EBFC5 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1127FAC4B5007EBFC5 /* RestaurantViewController.swift */; };
+		F3007B1427FAC4CA007EBFC5 /* RestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3007B1327FAC4CA007EBFC5 /* RestaurantViewController.xib */; };
+		F3007B1627FAC562007EBFC5 /* RestaurantProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1527FAC562007EBFC5 /* RestaurantProtocols.swift */; };
+		F3007B1827FAC56C007EBFC5 /* RestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1727FAC56C007EBFC5 /* RestaurantRouter.swift */; };
+		F3007B1A27FAC575007EBFC5 /* RestaurantInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1927FAC575007EBFC5 /* RestaurantInteractor.swift */; };
+		F3007B1C27FAC6D7007EBFC5 /* RestaurantPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1B27FAC6D7007EBFC5 /* RestaurantPresenter.swift */; };
 		F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAC2766D9730093139C /* AppUtils.swift */; };
 		F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */; };
 		F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */; };
-		F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */; };
-		F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CCD274F2A9500562BC9 /* ViewController.swift */; };
-		F3BF5CD1274F2A9500562BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BF5CCF274F2A9500562BC9 /* Main.storyboard */; };
 		F3BF5CD3274F2A9900562BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BF5CD2274F2A9900562BC9 /* Assets.xcassets */; };
 		F3BF5CD6274F2A9900562BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BF5CD4274F2A9900562BC9 /* LaunchScreen.storyboard */; };
 		F3BF5CE4274F34E300562BC9 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CE3274F34E200562BC9 /* AppConstants.swift */; };
-		F3BF5CED274F379300562BC9 /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CEC274F379300562BC9 /* NoticeModel.swift */; };
-		F3BF5CF42750827E00562BC9 /* NoticeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */; };
-		F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31422F474AD690B62F30623B /* Pods-Viper-Architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper-Architecture.debug.xcconfig"; path = "Target Support Files/Pods-Viper-Architecture/Pods-Viper-Architecture.debug.xcconfig"; sourceTree = "<group>"; };
 		4349651CA17409232AD00F41 /* Pods_Viper_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viper_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC27F4A0DAAB61C5671F7D06 /* Pods-Viper-Architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper-Architecture.release.xcconfig"; path = "Target Support Files/Pods-Viper-Architecture/Pods-Viper-Architecture.release.xcconfig"; sourceTree = "<group>"; };
-		F322BE9C2764894000B9FF27 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
-		F322BE9E276489D800B9FF27 /* MovieProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProtocol.swift; sourceTree = "<group>"; };
-		F322BEA027648A9900B9FF27 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
-		F322BEA427648C9000B9FF27 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		F322BEA62764919A00B9FF27 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
-		F3BB9EA6276498760093139C /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
-		F3BB9EA82766D3F00093139C /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
-		F3BB9EAA2766D5D50093139C /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		F3007AF227FAA062007EBFC5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F3007AF827FABA17007EBFC5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F3007B0927FAC3B8007EBFC5 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		F3007B0A27FAC3B8007EBFC5 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		F3007B0D27FAC3DB007EBFC5 /* RestaurantRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantRequest.swift; sourceTree = "<group>"; };
+		F3007B0E27FAC3DB007EBFC5 /* RestaurantResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
+		F3007B1127FAC4B5007EBFC5 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		F3007B1327FAC4CA007EBFC5 /* RestaurantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantViewController.xib; sourceTree = "<group>"; };
+		F3007B1527FAC562007EBFC5 /* RestaurantProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantProtocols.swift; sourceTree = "<group>"; };
+		F3007B1727FAC56C007EBFC5 /* RestaurantRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantRouter.swift; sourceTree = "<group>"; };
+		F3007B1927FAC575007EBFC5 /* RestaurantInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantInteractor.swift; sourceTree = "<group>"; };
+		F3007B1B27FAC6D7007EBFC5 /* RestaurantPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPresenter.swift; sourceTree = "<group>"; };
 		F3BB9EAC2766D9730093139C /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		F3BF5CC6274F2A9500562BC9 /* Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3BF5CCD274F2A9500562BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3BF5CD0274F2A9500562BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3BF5CD2274F2A9900562BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3BF5CD5274F2A9900562BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3BF5CD7274F2A9900562BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BF5CE3274F34E200562BC9 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		F3BF5CEC274F379300562BC9 /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
-		F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeProtocols.swift; sourceTree = "<group>"; };
-		F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,98 +83,102 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F322BE95276488C600B9FF27 /* movie-module */ = {
+		F3007AF727FAB9F9007EBFC5 /* app-network */ = {
 			isa = PBXGroup;
 			children = (
-				F322BE9B2764891700B9FF27 /* entity */,
-				F322BE9A2764890F00B9FF27 /* interactor */,
-				F322BE992764890600B9FF27 /* presenter */,
-				F322BE98276488FC00B9FF27 /* protocols */,
-				F322BE97276488E500B9FF27 /* router */,
-				F322BE96276488DE00B9FF27 /* view */,
+				F3007AF227FAA062007EBFC5 /* API.swift */,
+				F3007AF827FABA17007EBFC5 /* NetworkManager.swift */,
 			);
-			path = "movie-module";
+			path = "app-network";
 			sourceTree = "<group>";
 		};
-		F322BE96276488DE00B9FF27 /* view */ = {
+		F3007B0027FAC34D007EBFC5 /* app-module */ = {
 			isa = PBXGroup;
 			children = (
-				F322BEA327648C7D00B9FF27 /* controller */,
-				F322BEA227648C7100B9FF27 /* cell */,
+				F3007B0127FAC36B007EBFC5 /* restaurant-module */,
 			);
-			path = view;
+			path = "app-module";
 			sourceTree = "<group>";
 		};
-		F322BE97276488E500B9FF27 /* router */ = {
+		F3007B0127FAC36B007EBFC5 /* restaurant-module */ = {
 			isa = PBXGroup;
 			children = (
-				F3BB9EAA2766D5D50093139C /* MovieRouter.swift */,
+				F3007B1D27FAC6E7007EBFC5 /* presenter */,
+				F3007B0827FAC3A8007EBFC5 /* entity */,
+				F3007B0727FAC39E007EBFC5 /* interactor */,
+				F3007B0527FAC38E007EBFC5 /* view */,
+				F3007B0327FAC381007EBFC5 /* router */,
+				F3007B0227FAC379007EBFC5 /* protocol */,
+			);
+			path = "restaurant-module";
+			sourceTree = "<group>";
+		};
+		F3007B0227FAC379007EBFC5 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F3007B1527FAC562007EBFC5 /* RestaurantProtocols.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F3007B0327FAC381007EBFC5 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F3007B1727FAC56C007EBFC5 /* RestaurantRouter.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
 		};
-		F322BE98276488FC00B9FF27 /* protocols */ = {
+		F3007B0427FAC387007EBFC5 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F322BE9E276489D800B9FF27 /* MovieProtocol.swift */,
-			);
-			path = protocols;
-			sourceTree = "<group>";
-		};
-		F322BE992764890600B9FF27 /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-				F3BB9EA82766D3F00093139C /* MoviePresenter.swift */,
-			);
-			path = presenter;
-			sourceTree = "<group>";
-		};
-		F322BE9A2764890F00B9FF27 /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-				F322BEA62764919A00B9FF27 /* MovieInteractor.swift */,
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
-		F322BE9B2764891700B9FF27 /* entity */ = {
-			isa = PBXGroup;
-			children = (
-				F322BEA027648A9900B9FF27 /* MovieModel.swift */,
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		F322BEA227648C7100B9FF27 /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				F322BEA427648C9000B9FF27 /* MovieCell.swift */,
-			);
-			path = cell;
-			sourceTree = "<group>";
-		};
-		F322BEA327648C7D00B9FF27 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				F322BE9C2764894000B9FF27 /* MovieViewController.swift */,
+				F3007B1327FAC4CA007EBFC5 /* RestaurantViewController.xib */,
+				F3007B1127FAC4B5007EBFC5 /* RestaurantViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
 		};
-		F3BB9EA42764985E0093139C /* Controller */ = {
+		F3007B0527FAC38E007EBFC5 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				F3BF5CF5275087B600562BC9 /* NoticeViewController.swift */,
+				F3007B0627FAC397007EBFC5 /* cell */,
+				F3007B0427FAC387007EBFC5 /* controller */,
 			);
-			path = Controller;
+			path = view;
 			sourceTree = "<group>";
 		};
-		F3BB9EA5276498650093139C /* Cell */ = {
+		F3007B0627FAC397007EBFC5 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				F3BB9EA6276498760093139C /* NoticeCell.swift */,
+				F3007B0927FAC3B8007EBFC5 /* RestaurantCell.swift */,
+				F3007B0A27FAC3B8007EBFC5 /* RestaurantCell.xib */,
 			);
-			path = Cell;
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F3007B0727FAC39E007EBFC5 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F3007B1927FAC575007EBFC5 /* RestaurantInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F3007B0827FAC3A8007EBFC5 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F3007B0D27FAC3DB007EBFC5 /* RestaurantRequest.swift */,
+				F3007B0E27FAC3DB007EBFC5 /* RestaurantResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F3007B1D27FAC6E7007EBFC5 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F3007B1B27FAC6D7007EBFC5 /* RestaurantPresenter.swift */,
+			);
+			path = presenter;
 			sourceTree = "<group>";
 		};
 		F3BB9EAE2766DA210093139C /* ui-utils */ = {
@@ -211,14 +211,10 @@
 			isa = PBXGroup;
 			children = (
 				F3BF5CE1274F311000562BC9 /* common-utils */,
-				F3BF5CE0274F310200562BC9 /* app-modules */,
 				F3BF5CDF274F30F600562BC9 /* app-settings */,
+				F3007B0027FAC34D007EBFC5 /* app-module */,
 				F3BF5CDE274F30EB00562BC9 /* app-ui */,
 				F3BF5CDD274F30DD00562BC9 /* app-icons */,
-				F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */,
-				F3BF5CCB274F2A9500562BC9 /* SceneDelegate.swift */,
-				F3BF5CCD274F2A9500562BC9 /* ViewController.swift */,
-				F3BF5CCF274F2A9500562BC9 /* Main.storyboard */,
 				F3BF5CD2274F2A9900562BC9 /* Assets.xcassets */,
 				F3BF5CD4274F2A9900562BC9 /* LaunchScreen.storyboard */,
 				F3BF5CD7274F2A9900562BC9 /* Info.plist */,
@@ -243,22 +239,15 @@
 		F3BF5CDF274F30F600562BC9 /* app-settings */ = {
 			isa = PBXGroup;
 			children = (
+				F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */,
 			);
 			path = "app-settings";
-			sourceTree = "<group>";
-		};
-		F3BF5CE0274F310200562BC9 /* app-modules */ = {
-			isa = PBXGroup;
-			children = (
-				F322BE95276488C600B9FF27 /* movie-module */,
-				F3BF5CE5274F36D300562BC9 /* notice-module */,
-			);
-			path = "app-modules";
 			sourceTree = "<group>";
 		};
 		F3BF5CE1274F311000562BC9 /* common-utils */ = {
 			isa = PBXGroup;
 			children = (
+				F3007AF727FAB9F9007EBFC5 /* app-network */,
 				F3BB9EAE2766DA210093139C /* ui-utils */,
 				F3BF5CE2274F34C400562BC9 /* app-constants */,
 				F3BB9EAC2766D9730093139C /* AppUtils.swift */,
@@ -272,65 +261,6 @@
 				F3BF5CE3274F34E200562BC9 /* AppConstants.swift */,
 			);
 			path = "app-constants";
-			sourceTree = "<group>";
-		};
-		F3BF5CE5274F36D300562BC9 /* notice-module */ = {
-			isa = PBXGroup;
-			children = (
-				F3BF5CEB274F378200562BC9 /* view */,
-				F3BF5CEA274F377900562BC9 /* router */,
-				F3BF5CE9274F376F00562BC9 /* protocols */,
-				F3BF5CE8274F376200562BC9 /* presenter */,
-				F3BF5CE7274F375800562BC9 /* interactor */,
-				F3BF5CE6274F374800562BC9 /* entity */,
-			);
-			path = "notice-module";
-			sourceTree = "<group>";
-		};
-		F3BF5CE6274F374800562BC9 /* entity */ = {
-			isa = PBXGroup;
-			children = (
-				F3BF5CEC274F379300562BC9 /* NoticeModel.swift */,
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		F3BF5CE7274F375800562BC9 /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
-		F3BF5CE8274F376200562BC9 /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = presenter;
-			sourceTree = "<group>";
-		};
-		F3BF5CE9274F376F00562BC9 /* protocols */ = {
-			isa = PBXGroup;
-			children = (
-				F3BF5CF32750827E00562BC9 /* NoticeProtocols.swift */,
-			);
-			path = protocols;
-			sourceTree = "<group>";
-		};
-		F3BF5CEA274F377900562BC9 /* router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = router;
-			sourceTree = "<group>";
-		};
-		F3BF5CEB274F378200562BC9 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				F3BB9EA5276498650093139C /* Cell */,
-				F3BB9EA42764985E0093139C /* Controller */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,9 +323,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3007B0C27FAC3B8007EBFC5 /* RestaurantCell.xib in Resources */,
 				F3BF5CD6274F2A9900562BC9 /* LaunchScreen.storyboard in Resources */,
 				F3BF5CD3274F2A9900562BC9 /* Assets.xcassets in Resources */,
-				F3BF5CD1274F2A9500562BC9 /* Main.storyboard in Resources */,
+				F3007B1427FAC4CA007EBFC5 /* RestaurantViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,37 +379,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BF5CED274F379300562BC9 /* NoticeModel.swift in Sources */,
-				F3BF5CF42750827E00562BC9 /* NoticeProtocols.swift in Sources */,
-				F322BEA127648A9900B9FF27 /* MovieModel.swift in Sources */,
-				F3BB9EA92766D3F00093139C /* MoviePresenter.swift in Sources */,
-				F322BEA527648C9000B9FF27 /* MovieCell.swift in Sources */,
-				F3BF5CCE274F2A9500562BC9 /* ViewController.swift in Sources */,
-				F3BB9EA7276498760093139C /* NoticeCell.swift in Sources */,
-				F322BE9D2764894000B9FF27 /* MovieViewController.swift in Sources */,
-				F3BB9EAB2766D5D50093139C /* MovieRouter.swift in Sources */,
+				F3007B1C27FAC6D7007EBFC5 /* RestaurantPresenter.swift in Sources */,
+				F3007AF327FAA062007EBFC5 /* API.swift in Sources */,
+				F3007B1A27FAC575007EBFC5 /* RestaurantInteractor.swift in Sources */,
 				F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */,
-				F3BF5CF6275087B600562BC9 /* NoticeViewController.swift in Sources */,
-				F322BEA72764919A00B9FF27 /* MovieInteractor.swift in Sources */,
+				F3007AF927FABA17007EBFC5 /* NetworkManager.swift in Sources */,
 				F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */,
-				F322BE9F276489D800B9FF27 /* MovieProtocol.swift in Sources */,
+				F3007B1227FAC4B5007EBFC5 /* RestaurantViewController.swift in Sources */,
+				F3007B1027FAC3DB007EBFC5 /* RestaurantResponse.swift in Sources */,
+				F3007B1627FAC562007EBFC5 /* RestaurantProtocols.swift in Sources */,
+				F3007B0F27FAC3DB007EBFC5 /* RestaurantRequest.swift in Sources */,
+				F3007B1827FAC56C007EBFC5 /* RestaurantRouter.swift in Sources */,
 				F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */,
-				F3BF5CCC274F2A9500562BC9 /* SceneDelegate.swift in Sources */,
 				F3BF5CE4274F34E300562BC9 /* AppConstants.swift in Sources */,
+				F3007B0B27FAC3B8007EBFC5 /* RestaurantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3BF5CCF274F2A9500562BC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3BF5CD0274F2A9500562BC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3BF5CD4274F2A9900562BC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -618,7 +538,6 @@
 				INFOPLIST_FILE = "Viper-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -646,7 +565,6 @@
 				INFOPLIST_FILE = "Viper-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

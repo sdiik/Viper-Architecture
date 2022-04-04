@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+/* Show  progress Indicator */
 func showProgressIndicator(view: UIView) {
     view.isUserInteractionEnabled = false
     
@@ -15,7 +16,7 @@ func showProgressIndicator(view: UIView) {
     progressIndicator.tag = PROGRESS_INDICATOR_VIEW_TAG
     view.addSubview(progressIndicator)
 }
-
+/*  Hide progress Indicator */
 func hideProgressIndicator(view: UIView) {
     view.isUserInteractionEnabled = true
     
