@@ -14,19 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-     
-        let  restaurant = RestaurantRouter.createModule()
-        
-        let navigationController = UINavigationController()
-        navigationController.viewControllers = [restaurant]
-        navigationController.navigationBar.isTranslucent = false
-        navigationController.navigationBar.barTintColor = .blue
-        navigationController.navigationBar.backgroundColor = .blue
-        navigationController.navigationBar.tintColor = UIColor.white
-        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
+        let home = TabBar()
+        window?.rootViewController = home
         window?.makeKeyAndVisible()
         
         setupStatusBar()

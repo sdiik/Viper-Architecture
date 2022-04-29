@@ -27,10 +27,8 @@ private extension NetworkManager {
         provider.request(target) { result in
             switch result {
             case let .success(response):
-                print("---- response -----\(response.data)")
                 do {
                     let results = try JSONDecoder().decode(T.self, from: response.data)
-                    print("----results -----\(results)")
                     completion(.success(results))
                 } catch {
                     completion(.failure(error))

@@ -20,6 +20,16 @@
 		F3007B1827FAC56C007EBFC5 /* RestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1727FAC56C007EBFC5 /* RestaurantRouter.swift */; };
 		F3007B1A27FAC575007EBFC5 /* RestaurantInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1927FAC575007EBFC5 /* RestaurantInteractor.swift */; };
 		F3007B1C27FAC6D7007EBFC5 /* RestaurantPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3007B1B27FAC6D7007EBFC5 /* RestaurantPresenter.swift */; };
+		F31632A527FC150F00DF9844 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31632A427FC150F00DF9844 /* TabBar.swift */; };
+		F31632B127FC18DE00DF9844 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31632B027FC18DE00DF9844 /* HomeViewController.swift */; };
+		F31632B327FC18E900DF9844 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31632B227FC18E900DF9844 /* HomeViewController.xib */; };
+		F361EFC92807E9DB00B90028 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F361EFC82807E9DB00B90028 /* ProfileViewController.xib */; };
+		F361EFCB2807E9E900B90028 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361EFCA2807E9E900B90028 /* ProfileViewController.swift */; };
+		F361EFCD2807EF7400B90028 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = F361EFCC2807EF7400B90028 /* Demo.html */; };
+		F361EFCF2807EFCF00B90028 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361EFCE2807EFCF00B90028 /* ProfileRouter.swift */; };
+		F3768F4F281B8EB4007B2214 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3768F4E281B8EB4007B2214 /* Alert.swift */; };
+		F3768F51281B93FF007B2214 /* bottomSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3768F50281B93FF007B2214 /* bottomSheetController.xib */; };
+		F3768F54281B953B007B2214 /* bottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3768F53281B953B007B2214 /* bottomSheetController.swift */; };
 		F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAC2766D9730093139C /* AppUtils.swift */; };
 		F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */; };
 		F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF5CC9274F2A9500562BC9 /* AppDelegate.swift */; };
@@ -44,6 +54,16 @@
 		F3007B1727FAC56C007EBFC5 /* RestaurantRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantRouter.swift; sourceTree = "<group>"; };
 		F3007B1927FAC575007EBFC5 /* RestaurantInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantInteractor.swift; sourceTree = "<group>"; };
 		F3007B1B27FAC6D7007EBFC5 /* RestaurantPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantPresenter.swift; sourceTree = "<group>"; };
+		F31632A427FC150F00DF9844 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F31632B027FC18DE00DF9844 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F31632B227FC18E900DF9844 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F361EFC82807E9DB00B90028 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		F361EFCA2807E9E900B90028 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F361EFCC2807EF7400B90028 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
+		F361EFCE2807EFCF00B90028 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		F3768F4E281B8EB4007B2214 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F3768F50281B93FF007B2214 /* bottomSheetController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bottomSheetController.xib; sourceTree = "<group>"; };
+		F3768F53281B953B007B2214 /* bottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomSheetController.swift; sourceTree = "<group>"; };
 		F3BB9EAC2766D9730093139C /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		F3BF5CC6274F2A9500562BC9 /* Viper-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +115,9 @@
 		F3007B0027FAC34D007EBFC5 /* app-module */ = {
 			isa = PBXGroup;
 			children = (
+				F31632A727FC180B00DF9844 /* profile-module */,
+				F31632A627FC180200DF9844 /* home-module */,
+				F31632A327FC148700DF9844 /* tab-module */,
 				F3007B0127FAC36B007EBFC5 /* restaurant-module */,
 			);
 			path = "app-module";
@@ -181,10 +204,176 @@
 			path = presenter;
 			sourceTree = "<group>";
 		};
+		F31632A327FC148700DF9844 /* tab-module */ = {
+			isa = PBXGroup;
+			children = (
+				F31632A427FC150F00DF9844 /* TabBar.swift */,
+			);
+			path = "tab-module";
+			sourceTree = "<group>";
+		};
+		F31632A627FC180200DF9844 /* home-module */ = {
+			isa = PBXGroup;
+			children = (
+				F31632AD27FC189E00DF9844 /* protocol */,
+				F31632AC27FC189900DF9844 /* router */,
+				F31632AB27FC189500DF9844 /* view */,
+				F31632AA27FC188C00DF9844 /* interactor */,
+				F31632A927FC188400DF9844 /* entity */,
+				F31632A827FC187E00DF9844 /* presenter */,
+			);
+			path = "home-module";
+			sourceTree = "<group>";
+		};
+		F31632A727FC180B00DF9844 /* profile-module */ = {
+			isa = PBXGroup;
+			children = (
+				F361EFC52807E9BB00B90028 /* presenter */,
+				F361EFC42807E9B000B90028 /* entity */,
+				F361EFC32807E9A800B90028 /* interactor */,
+				F361EFC22807E99300B90028 /* view */,
+				F361EFC12807E98D00B90028 /* router */,
+				F361EFC02807E97C00B90028 /* protocol */,
+			);
+			path = "profile-module";
+			sourceTree = "<group>";
+		};
+		F31632A827FC187E00DF9844 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F31632A927FC188400DF9844 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F31632AA27FC188C00DF9844 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F31632AB27FC189500DF9844 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F31632AF27FC18C700DF9844 /* cell */,
+				F31632AE27FC18C200DF9844 /* controller */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F31632AC27FC189900DF9844 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F31632AD27FC189E00DF9844 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F31632AE27FC18C200DF9844 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F31632B027FC18DE00DF9844 /* HomeViewController.swift */,
+				F31632B227FC18E900DF9844 /* HomeViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F31632AF27FC18C700DF9844 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F361EFC02807E97C00B90028 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F361EFC12807E98D00B90028 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F361EFCE2807EFCF00B90028 /* ProfileRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F361EFC22807E99300B90028 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F361EFC72807E9C800B90028 /* controller */,
+				F361EFC62807E9C400B90028 /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F361EFC32807E9A800B90028 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F361EFC42807E9B000B90028 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F361EFC52807E9BB00B90028 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F361EFC62807E9C400B90028 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F361EFC72807E9C800B90028 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F361EFC82807E9DB00B90028 /* ProfileViewController.xib */,
+				F361EFCA2807E9E900B90028 /* ProfileViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F3768F52281B951C007B2214 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F3768F50281B93FF007B2214 /* bottomSheetController.xib */,
+				F3768F53281B953B007B2214 /* bottomSheetController.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		F3BB9EAE2766DA210093139C /* ui-utils */ = {
 			isa = PBXGroup;
 			children = (
+				F3768F52281B951C007B2214 /* BottomSheet */,
 				F3BB9EAF2766DA2E0093139C /* ProgressIndicator.swift */,
+				F3768F4E281B8EB4007B2214 /* Alert.swift */,
 			);
 			path = "ui-utils";
 			sourceTree = "<group>";
@@ -210,6 +399,7 @@
 		F3BF5CC8274F2A9500562BC9 /* Viper-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				F361EFCC2807EF7400B90028 /* Demo.html */,
 				F3BF5CE1274F311000562BC9 /* common-utils */,
 				F3BF5CDF274F30F600562BC9 /* app-settings */,
 				F3007B0027FAC34D007EBFC5 /* app-module */,
@@ -275,6 +465,7 @@
 				F3BF5CC3274F2A9500562BC9 /* Frameworks */,
 				F3BF5CC4274F2A9500562BC9 /* Resources */,
 				48A1EC400EB3496F85C6A1B5 /* [CP] Embed Pods Frameworks */,
+				F31632B427FC1AA600DF9844 /* R.Swift */,
 			);
 			buildRules = (
 			);
@@ -323,8 +514,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F361EFC92807E9DB00B90028 /* ProfileViewController.xib in Resources */,
+				F361EFCD2807EF7400B90028 /* Demo.html in Resources */,
 				F3007B0C27FAC3B8007EBFC5 /* RestaurantCell.xib in Resources */,
 				F3BF5CD6274F2A9900562BC9 /* LaunchScreen.storyboard in Resources */,
+				F3768F51281B93FF007B2214 /* bottomSheetController.xib in Resources */,
+				F31632B327FC18E900DF9844 /* HomeViewController.xib in Resources */,
 				F3BF5CD3274F2A9900562BC9 /* Assets.xcassets in Resources */,
 				F3007B1427FAC4CA007EBFC5 /* RestaurantViewController.xib in Resources */,
 			);
@@ -372,6 +567,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viper-Architecture/Pods-Viper-Architecture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F31632B427FC1AA600DF9844 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ACTION != \"indexbuild\" ]; then\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Viper-Architecture/app-constants/R.generated.swift\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,11 +598,17 @@
 				F3007B1A27FAC575007EBFC5 /* RestaurantInteractor.swift in Sources */,
 				F3BB9EB02766DA2E0093139C /* ProgressIndicator.swift in Sources */,
 				F3007AF927FABA17007EBFC5 /* NetworkManager.swift in Sources */,
+				F3768F4F281B8EB4007B2214 /* Alert.swift in Sources */,
 				F3BB9EAD2766D9730093139C /* AppUtils.swift in Sources */,
 				F3007B1227FAC4B5007EBFC5 /* RestaurantViewController.swift in Sources */,
+				F361EFCB2807E9E900B90028 /* ProfileViewController.swift in Sources */,
 				F3007B1027FAC3DB007EBFC5 /* RestaurantResponse.swift in Sources */,
 				F3007B1627FAC562007EBFC5 /* RestaurantProtocols.swift in Sources */,
+				F31632A527FC150F00DF9844 /* TabBar.swift in Sources */,
+				F3768F54281B953B007B2214 /* bottomSheetController.swift in Sources */,
 				F3007B0F27FAC3DB007EBFC5 /* RestaurantRequest.swift in Sources */,
+				F361EFCF2807EFCF00B90028 /* ProfileRouter.swift in Sources */,
+				F31632B127FC18DE00DF9844 /* HomeViewController.swift in Sources */,
 				F3007B1827FAC56C007EBFC5 /* RestaurantRouter.swift in Sources */,
 				F3BF5CCA274F2A9500562BC9 /* AppDelegate.swift in Sources */,
 				F3BF5CE4274F34E300562BC9 /* AppConstants.swift in Sources */,

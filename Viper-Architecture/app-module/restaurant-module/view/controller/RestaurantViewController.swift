@@ -19,7 +19,6 @@ class RestaurantViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setTitle()
         removeRestaurants()
         configTableView()
         registerTableViewCell()
@@ -29,10 +28,6 @@ class RestaurantViewController: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.isHidden = false
-    }
-    private
-    func setTitle() {
-        self.title = "Restaurant"
     }
     private
     func removeRestaurants() {

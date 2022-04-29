@@ -5,22 +5,42 @@ PODS:
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - NBBottomSheet (1.2.0)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - SnapKit (5.0.1)
+  - WKWebViewJavascriptBridge (1.2.2)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.0)
   - Moya (~> 15.0)
+  - NBBottomSheet (~> 1.2)
+  - R.swift
+  - SnapKit (~> 5.0.0)
+  - WKWebViewJavascriptBridge (~> 1.2.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Kingfisher
     - Moya
+    - NBBottomSheet
+    - R.swift
+    - R.swift.Library
+    - SnapKit
+    - WKWebViewJavascriptBridge
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NBBottomSheet: aa7a52809b2d7b193f733247b8ce391a59904372
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  WKWebViewJavascriptBridge: d7324badf8996486c71648f448617b09bf927b4b
 
-PODFILE CHECKSUM: cc78880b6ec66838d4b27bcb03b871f3508eb0e8
+PODFILE CHECKSUM: 8ab22ac2ef47d0aeaf0b60c0d91eb848b62c6cb3
 
 COCOAPODS: 1.11.2
